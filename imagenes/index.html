@@ -5,13 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagenes</title>
 </head>
-<body style="background-image: url('img/azul.jpg');">
+<!--
+<body style="background-image: url('img/fondo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        ">-->
+<!-- <body style="background: url(img/fondo.jpg) no-repeat center fixed;"> -->
+<body> 
     <h2>
         Imágenes 
     </h2> 
-   
-   <!-- <img src="../imagenes/img/tirana.jpg" 
+    <img src="../imagenes/img/tirana.jpg" 
     alt="IES Triana"
-    style="width: 250px; ; height: 300px ;">-->
+    usemap="#formas"
+    ismap="ismap">
+    
+    <map name="formas" id="formas">    
+        <area shape="poly" 
+        coords="135,59, 166,53 
+        ,186,56, 156,78, 142,101, 133,99,"
+        href="http://www.google.es">
+        
+        <area shape="circle"
+        coords="76,161,25"       
+        href="https://blogsaverroes.juntadeandalucia.es/iestriana/">
+
+        <area shape="rect"
+        coords="147,180,233,217"
+        href="https://www.google.com/search?tbm=isch&source=hp&biw=500&bih=647&ei=vYmSX9meFbCIlwS4wrLYDw&q=mar&oq=mar&gs_lcp=CgNpbWcQAzICCAAyCAgAELEDEIMBMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzICCAAyBQgAELEDMgIIADIFCAAQsQNQ8gtYtxJgpxRoAXAAeACAAaABiAHyApIBAzEuMpgBAKABAaoBC2d3cy13aXotaW1nsAEA&sclient=img&ved=0ahUKEwiZ8fXxm8rsAhUwxIUKHTihDPsQ4dUDCAc&uact=5">
+    </map>
 </body>
 </html>
