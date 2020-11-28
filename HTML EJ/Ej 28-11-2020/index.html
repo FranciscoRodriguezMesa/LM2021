@@ -35,13 +35,15 @@
         <meta name="twitter:image" content="http://www.Modas Mesa´s/image.jpg">
         
 </head>
-<body style="background-color: rgb(233, 238, 243);
-            text-align: center;">
+<body style="background-color: rgb(233, 238, 243);">
     <h3>
         Modas Mesas´s
     </h3>
-
-    <table>
+    <p style="text-align: center;"> 
+    <table style="background-color: rgb(246, 248, 250);
+                    margin-top: 10px;
+                    margin-left: 15px;
+                    margin-right: 15px;">
         <caption>
             Solicitud de Empleo
         </caption>
@@ -139,11 +141,37 @@
                 Cuando acabó su último trabajo:
             </th>
             <td>
-                <input type="datetime-local" name="" id="">
+                <input type="datetime-local" name="finaldetrabajo" id="finaldetrabajo">
             </td>
         </tr>
-        
+        <tr>
+            <th>
+                Posee perfiles en redes sociales:
+            </th>
+            <td>
+                <span>Sí</span>
+                <input type="radio"
+                        name="preguntaredes" 
+                        id="preguntaredes" 
+                        value="s">
+                <span>No</span>
+                <input type="radio" 
+                        name="preguntaredes" 
+                        id="preguntaredes" 
+                        value="n"
+                        > 
+            </td>
+        </tr>
+        <tr>
+            <th>
+                A que aspiras en Modas Mesas´s
+            </th>
+            <td>
+                <textarea name="10" id="10" cols="20" rows="5"></textarea>
+            </td>
+        </tr>
     
     </table>
+    </p>
 </body>
 </html>
