@@ -54,7 +54,8 @@
                         id="Nombre"
                         placeholder="Nombre del soliciante"
                         size="50"
-                        maxlength="10">    
+                        maxlength="10"
+                        required>    
             </td>
         </tr>
         <tr>
@@ -66,7 +67,8 @@
                         id="Apellidos"
                         placeholder="Apellidos del soliciante"
                         size="50"
-                        maxlength="10">    
+                        maxlength="10"
+                        required>    
             </td>
         </tr>
         <tr>
@@ -74,7 +76,8 @@
                 Dirección del soliciante:
             </th>
             <td>
-                <select name="Ciudad" id="Ciudad">
+                <select name="Ciudad" 
+                        id="Ciudad">
                     <option value="0" selected>
                         Seleccione Ciudad
                     </option>
@@ -93,17 +96,46 @@
             </td>       
         </tr>
         <tr>
-            <td>
+            <th>
                 Número de Teléfono:
-            </td>
+            </th>
             <td>
-
+                <input type="tel" 
+                        name="telefono" 
+                        id="telefono"
+                        pattern="+[0-9]{2}[0*-9]{9}"
+                        required>
+                ( EJ +34 666666666)
             </td>
         </tr>
+        <tr>
+            <th>
+                Indica previa experiencia Laboral
+            </th>
+            <td>
+                <span>Sí</span>
+                <input type="radio"
+                        name="pregunta" 
+                        id="pregunta" 
+                        value="s">
+                <span>No</span>
+                <input type="radio" 
+                        name="pregunta" 
+                        id="pregunta" 
+                        value="n"
+                        checked>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                (cuentanos algo sobre tu experiencia laboral, si tienes)
+            </td>
+            <td>
+                <textarea name="experiencialaboral" id="experiencialaboral" cols="20" rows="5"></textarea>
+            </td>
+        </tr>
+        
     
     </table>
-
-
-    
 </body>
 </html>
