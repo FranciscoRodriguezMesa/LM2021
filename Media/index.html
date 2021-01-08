@@ -30,10 +30,25 @@
                     text-decoration: underline;
                 }       
         }
-        
-    
-    
-    </style>
+
+        @media print{
+            *{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+        }
+
+        @media all and (orientation: landscape){
+            p{
+                font-size: 5px;
+            }
+        }
+        @media all and (orientation: portrait){
+            p{
+                font-size: 50px;
+            }
+        }
+
+</style>
 
 </head>
 <body>
