@@ -6,3 +6,20 @@
 #container{
     border: solid 2px black;
 }
+#fotohead {
+    background-color: rgb(135, 222, 142);
+    float: left;
+    width: 100px;
+    height: 70px;
+}
+#headtittle{
+    background-color: rgb(135, 222, 142);
+    font-size: 25px;
+    font-family:sans-serif;
+    color: red;
+}
+#sectiontittle{
+    background-color: rgb(135, 222, 142);
+    font-size: 15px;
+    font-family: sans-serif;
+}
