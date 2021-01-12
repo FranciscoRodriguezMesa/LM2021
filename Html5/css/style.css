@@ -63,9 +63,16 @@ body{
     border-top: 2px solid #c10c10c0;
 }
 
+article {
+    background: #ffbbcc;
+    border: 1px solid #124578;
+    padding: 20px;    
+}
 
-
-
+article footer {
+    text-align: center;
+    text-decoration: underline;
+}
 
 
 
