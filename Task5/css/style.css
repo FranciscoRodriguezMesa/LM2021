@@ -1,3 +1,25 @@
 body {
     background: rgb(212, 202, 202);
 }
+#container {
+    border: solid 2px black;
+}
+
+header {
+    background: rgb(114, 197, 114);
+}
+
+#headtittle {
+    color: red;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+#sectiontittle {
+    margin-left: 150px;
+}
+
+#fotohead {
+    float: left;
+    width: 150px;
+}
