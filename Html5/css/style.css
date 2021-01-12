@@ -27,6 +27,45 @@ body{
 
 #head {
     background: lemonchiffon;
-    border: 1px solid #c20c20c20;
+    border: 1px solid #c10c10c0;
+    padding: 20px;
+}
+
+#menu {
+    background: coral;
+    padding: 5px 15px;
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+#main {
+    float: left;
+    width: 660px;
+    margin: 20px;
 
 }
+
+#column {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: aqua;
+}
+
+#foot {
+    clear: both;
+    text-align: center;
+    border-top: 2px solid #c10c10c0;
+}
+
+
+
+
+
+
+
