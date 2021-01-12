@@ -1,0 +1,34 @@
+    /*FRANCISCO RODRIGUEZ MESA*/
+
+* {
+    background: rgb(161, 151, 136);
+}
+body{
+    border: solid 3px black
+}
+#cabecera{
+    background: rgb(180, 224, 163);
+    height: 130px;
+}
+#fotohead{
+    background: rgb(180, 224, 163);
+    float: left;
+    alin: center;
+}
+#titulohead{
+    background: rgb(180, 224, 163);
+    float: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(235, 104, 104);
+}
+#texthead{
+    background: rgb(180, 224, 163);
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(106, 143, 92);
+}
+#listahead{
+    background: rgb(132, 176, 241);
+    
+}
