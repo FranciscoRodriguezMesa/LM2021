@@ -4,11 +4,30 @@
 #container{
     border: solid 2px;
 }
-#head{
-    background: rgb(120, 221, 107);
+header{
+    background: rgb(151, 241, 159);
 }
 #fotobanner{
-    float: left;
-    width: 100px;
     height: 100px;
+    width: 100px;
+    float: left;
+    padding-top: auto;
+}
+#titulohead{
+    font-family: verdana;
+    size: 15px;
+    color: tomato;
+    background: rgb(151, 241, 159);
+    padding-top: 20px;
+
+}
+#subtitulohead {
+    font-family: verdana;
+    size: 5px;
+    color: rgb(95, 153, 100);
+    background: rgb(151, 241, 159);
+    padding-bottom: 25px;
+}
+#menu{
+    background: rgb(100, 117, 218);
 }
