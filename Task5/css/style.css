@@ -4,3 +4,11 @@
 #container{
     border: solid 2px;
 }
+#head{
+    background: rgb(120, 221, 107);
+}
+#fotobanner{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
