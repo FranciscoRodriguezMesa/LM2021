@@ -33,8 +33,7 @@ header{
 #menu ul li{
     background: rgb(100, 117, 218);
     display: inline;
-    padding-top: 25px;
-    padding-inline-start: 10px;
-    
+    padding-block-start: 0px;
+        
 
 }
