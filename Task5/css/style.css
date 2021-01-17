@@ -1,42 +1,78 @@
-    /*FRANCISCO RODRIGUEZ MESA*/
-
-* {
-    background: rgb(161, 151, 136);
+*  /*A TODA la página*/{
+    margin: 0px;
+    padding: 0px;
 }
+
+h1{
+    font: bold 30px verdana, san-serif;
+}
+
+h2{
+    font: bold 20px verdana ;
+}
+
+header, section, footer, aside, nav, article{
+    display: block;
+}
+
 body{
-    border: solid 3px black
+    text-align: center;
 }
-#cabecera{
-    background: rgb(180, 224, 163);
-    height: 130px;
+
+#container{
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
 }
-#fotohead{
-    background: rgb(180, 224, 163);
-    float: left;
+
+#head {
+    background: lemonchiffon;
+    border: 1px solid #c10c10c0;
+    padding: 20px;
 }
-#titulohead{
-    background: rgb(180, 224, 163);
-    float: none;
-    font-size: 30px;
-    font-family: sans-serif;
-    color: rgb(235, 104, 104);
+
+#menu {
+    background: coral;
+    padding: 5px 15px;
 }
-#texthead{
-    background: rgb(180, 224, 163);
-    font-size: 15px;
-    font-family: sans-serif;
-    color: rgb(106, 143, 92);
-}
-#listahead li{ 
-    background: rgb(132, 176, 241);
+
+#menu li{
+    display: inline-block;
     list-style: none;
+    padding: 5px;
 }
 
-/*--------------------------*/
+#main {
+    float: left;
+    width: 660px;
+    margin: 20px;
 
-#section1{
-    background: rgb(218, 133, 72);
 }
-#section2{
-    background: rgb(218, 133, 72);
+
+#column {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: aqua;
 }
+
+#foot {
+    clear: both;
+    text-align: center;
+    border-top: 2px solid #c10c10c0;
+}
+
+article {
+    background: #ffbbcc;
+    border: 1px solid #124578;
+    padding: 20px;    
+}
+
+article footer {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
