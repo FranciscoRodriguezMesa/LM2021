@@ -28,6 +28,8 @@ header{
     background: rgb(151, 241, 159);
     padding-bottom: 25px;
 }
-#menu{
+#menu li{
     background: rgb(100, 117, 218);
+    display: inline;
+    padding: 5;
 }
