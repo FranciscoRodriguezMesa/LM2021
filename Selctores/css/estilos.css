@@ -47,5 +47,32 @@ div#capa1 * {
     font-style: italic;
 }
 div > a {/*enlaces cuyo padre sea una capa*/
-    
+    border: 2px solid black;
+}
+a[href^=https] {
+    text-transform: lowercase;
+}
+a[href$="pdf"] {
+    font-size: xx-small;
+}
+a[href*="triana"] {
+    background: bisque;
+}
+a[target=_blank] {
+    font-size: 60px;
+}
+div + p {/*parrafos JUSTO despues de una capa*/
+    border: 2px dotted red;
+}
+input:focus {
+    border: 5px solid blue; 
+}
+input:enabled{
+    border: 5px solid blue;
+}
+input:disabled {
+    border: 5px solid red;/*indicado en HTML*/
+}
+input:checked {
+    border: 5px solid yellow;
 }
