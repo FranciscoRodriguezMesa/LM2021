@@ -34,6 +34,8 @@ header{
     background: rgb(100, 117, 218);
     display: inline;
     padding-block-start: 0px;
-        
-
+}
+menu {
+    width: 720px;
+    height: 50px;
 }
