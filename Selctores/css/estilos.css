@@ -74,5 +74,8 @@ input:disabled {
     border: 5px solid red;/*indicado en HTML*/
 }
 input:checked {
-    border: 5px solid yellow;
+    margin-left: 55px;
 }
+:not(p) {/*TODO lo que no sea un parrafo*/
+    text-decoration: overline;
+})
