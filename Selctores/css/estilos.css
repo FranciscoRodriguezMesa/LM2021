@@ -78,4 +78,4 @@ input:checked {
 }
 :not(p) {/*TODO lo que no sea un parrafo*/
     text-decoration: overline;
-})
+}
