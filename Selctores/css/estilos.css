@@ -28,7 +28,21 @@ div#capa1 a.encima:visited{
     color: black;
 }*/
 p#miparrafo:first-line{
-    font-size: 60px;
+    font-size: 20px;
     color: brown;
     font-weight: bold;
+}
+p#miparrafo::first-letter{
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul#capafinal li:first-child {
+    background: blue;
+}
+ul#capafinal li:last-child {
+    background: cadetblue;
+}
+div#capa1 * {
+    font-style: italic;
 }
