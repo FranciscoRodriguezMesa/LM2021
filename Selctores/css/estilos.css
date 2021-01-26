@@ -46,3 +46,6 @@ ul#capafinal li:last-child {
 div#capa1 * {
     font-style: italic;
 }
+div > a {/*enlaces cuyo padre sea una capa*/
+    
+}
