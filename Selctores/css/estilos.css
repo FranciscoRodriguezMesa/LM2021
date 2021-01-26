@@ -1,0 +1,34 @@
+/*.=class #=ID*/
+a,p {/*lista de etiquetas a las que hacemos referencia*/
+    font-size: 25px;
+}
+div a{/*enlaces DENTRO de div*/
+    color: burlywood;
+}
+div#capa1{/*div con id #--*/
+    background: chocolate;
+}
+.letragrande{
+    font-size: xx-large;
+}
+.noSubrayado{
+    text-decoration: none;
+}
+div#capa1 a.encima{
+    font-family: monospace;
+}
+div#capa1 a.encima:hover{
+    color: yellow;
+    font-size: 35px;
+}
+/*div#capa1 a.encima:link{
+    color: violet;
+}
+div#capa1 a.encima:visited{
+    color: black;
+}*/
+p#miparrafo:first-line{
+    font-size: 60px;
+    color: brown;
+    font-weight: bold;
+}
