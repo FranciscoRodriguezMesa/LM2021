@@ -1,41 +1,88 @@
-*{
- background: rgb(170, 170, 187);
+* {
+    margin: 0px;
+    padding: 0px;
 }
-#container{
-    border: solid 2px;
-}
-header{
-    background: rgb(151, 241, 159);
-}
-#fotobanner{
-    height: 70px;
-    width: 70px;
-    float: left;
-    padding-top: 25px;
-    padding: 20px;
-    background:rgb(151, 241, 159);
-}
-#titulohead{
-    font-family: verdana;
-    size: 15px;
-    color: tomato;
-    background: rgb(151, 241, 159);
-    padding-top: 20px;
 
+h1{
+    font: bold 20px verdana, sans-serif;
 }
-#subtitulohead {
-    font-family: verdana;
-    size: 5px;
-    color: rgb(95, 153, 100);
-    background: rgb(151, 241, 159);
+
+h2{
+    font: bold 16px verdana, sans-serif;
+}
+
+header, section, footer, aside, nav, article{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+#container {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#head{
+    background-color: lemonchiffon;
+    border: 1px solid #c0c0c0;
+    padding: 20px;
     padding-bottom: 20px;
 }
-#menu ul li{
-    background: rgb(100, 117, 218);
-    display: inline;
-    padding-block-start: 0px;
+#headbanner{
+       height: 50px;
+       width: 50px;
+       float: left;
+       padding-right: 20px;
+       padding-bottom: 20px;
+       
 }
-menu {
-    width: 720px;
-    height: 50px;
+#menu{
+    background-color: coral;
+    padding: 5px 15px;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+#main {
+    float: left;
+    width: 600px;
+    height: 800;
+    margin: 20px;
+}
+
+#column {
+    float: right;
+    width: 220px;
+    margin: 20px 0px 20px;
+    padding: 20px;
+    background: crimson;
+    
+}
+
+#foot {
+    clear: both;
+    text-align: center;
+    border-top: 2px solid #999999;
+}
+
+article {
+    background: #ffbbcc;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+article footer {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#mainArt {
+    font-size: medium bold;
 }
