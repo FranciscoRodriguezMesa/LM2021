@@ -1,3 +1,4 @@
+/*FRANCISCO RODRIGUEZ MESA*/
 * {
     margin: 0px;
     padding: 0px;
@@ -26,7 +27,7 @@ body{
 }
 
 #head{
-    background-color: lemonchiffon;
+    background: rgb(164, 235, 158);
     border: 1px solid #c0c0c0;
     padding: 20px;
     padding-bottom: 20px;
@@ -39,8 +40,11 @@ body{
        padding-bottom: 20px;
        
 }
+h1#titulibanner{
+    font-size: 100px;
+}
 #menu{
-    background-color: coral;
+    background: rgb(80, 205, 255);
     padding: 5px 15px;
 }
 
@@ -55,6 +59,7 @@ body{
     width: 600px;
     height: 800;
     margin: 20px;
+    background: rgb(226, 167, 89);
 }
 
 #column {
@@ -62,27 +67,25 @@ body{
     width: 220px;
     margin: 20px 0px 20px;
     padding: 20px;
-    background: crimson;
+    background: rgb(212, 202, 204);
     
 }
-
-#foot {
-    clear: both;
-    text-align: center;
-    border-top: 2px solid #999999;
-}
-
-article {
-    background: #ffbbcc;
+#art1 {
+    background: #ecb384;
     border: 1px solid #999999;
     padding: 20px;
+    text-align: left;
 }
-
-article footer {
+#art2 {
+    background: #d68645;
+    border: 1px solid #999999;
+    padding: 20px;
     text-align: center;
-    text-decoration: underline;
 }
 
-#mainArt {
-    font-size: medium bold;
+#art3 {
+    background: #ecb384;
+    border: 1px solid #999999;
+    padding: 20px;
+    text-align: left;
 }
