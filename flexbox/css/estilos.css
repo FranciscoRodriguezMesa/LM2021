@@ -9,11 +9,11 @@
     flex-wrap: wrap;
     justify-content: space-around;*/
 
-    height: 240px;
+    /*height: 240px;
     background: grey;
     justify-content: flex-start;
-    align-items: flex-end;
-    flex-flow: wrap;
+    flex-flow:row wrap;*/
+   
 }
 .elemento {
     width: 24%;
@@ -21,4 +21,10 @@
     border: 1px solid black;
     height: 40px;
     color: white;
+    flex: 1 1 0 ;
+}
+
+.elemento:nth-child(4) {
+    flex-grow: 3;
+
 }
