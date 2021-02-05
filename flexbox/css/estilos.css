@@ -4,10 +4,19 @@
     /*flex-direction: ;*/
     /*flex-wrap: ;*/
     /*flex-flow: ;*/
+    
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;*/
 
+    height: 240px;
+    background: grey;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-flow: wrap;
 }
 .elemento {
-    width: 25%;
+    width: 24%;
     background: linear-gradient(to right, blue, white);
     border: 1px solid black;
     height: 40px;
