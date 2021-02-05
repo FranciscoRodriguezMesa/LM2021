@@ -1,6 +1,15 @@
+/*FRANCISCO RODRIGUEZ MESA*/
 .contenedor {
+    display: flex;
+    /*flex-direction: ;*/
+    /*flex-wrap: ;*/
+    /*flex-flow: ;*/
 
 }
 .elemento {
-
+    width: 25%;
+    background: linear-gradient(to right, blue, white);
+    border: 1px solid black;
+    height: 40px;
+    color: white;
 }
