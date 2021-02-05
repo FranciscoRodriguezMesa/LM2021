@@ -1,19 +1,19 @@
 /*FRANCISCO RODRIGUEZ MESA*/
 .contenedor {
     display: flex;
-    /*flex-direction: ;*/
-    /*flex-wrap: ;*/
-    /*flex-flow: ;*/
+    /*flex-direction: ;
+    flex-wrap: ;
+    flex-flow: ;
     
-    /*flex-direction: row;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;*/
+    justify-content: space-around;
 
-    /*height: 240px;
+    height: 240px;
     background: grey;
     justify-content: flex-start;
-    flex-flow:row wrap;*/
-   
+    flex-flow:row wrap;
+ */  
 }
 .elemento {
     width: 24%;
@@ -23,8 +23,7 @@
     color: white;
     flex: 1 1 0 ;
 }
-
-.elemento:nth-child(4) {
+ .elemento:nth-child(4) {
     flex-grow: 3;
 
 }
