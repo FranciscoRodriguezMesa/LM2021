@@ -12,14 +12,20 @@ header {
 }
 section {
     display: flex;
+    justify-content: space-between
 }
 article {
     padding: 10px;
     text-align: center;
     width: 100%;
+    
 }
 img {
-    width: 100%;
+    width: 50%;
+}
+
+h1 {
+    color: wheat;
 }
 #articulocabeza {
     color: blue;
@@ -28,9 +34,17 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #articulo1 {
-    background: coral;
-}#articulo2 {
-    background: grey;
-}#articulo3 {
-    background: blue;
+    background: rgb(95, 95, 228);
+    border-radius: 15% 0% 15% 0%;
+    margin: 1%;    
+}
+#articulo2 {
+    background: rgb(209, 117, 64);
+    border-radius: 15% 0% 15% 0%;
+    margin: 1%;
+}
+#articulo3 {
+    background: rgb(185, 54, 76);
+    border-radius: 15% 0% 15% 0%;
+    margin: 1%;
 }
