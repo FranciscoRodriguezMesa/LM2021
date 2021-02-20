@@ -16,7 +16,7 @@
 <body>
   <main class="container-fluid">
     <header class="row">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-primary  bg-white">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Estore.</a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,22 +40,22 @@
                           <a class="nav-link" aria-current="page" href="#">Contact</a>
                         </li>
                     </ul>
-                    <form class="form-inline">                            
+                    <form class="d-flex">                            
+                      <input class="form-control me-2" type="search" placeholder="Search Products" aria-label="Search">
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Entrar</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-        </div>
-      </div>
-    </div>
-  </div>
-  
+                      <a href="#" style="margin-right: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                          <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>
+                      </a>
+                      <a href="#" style="margin-right: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                        </svg>
+                      </a>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Sing In
+                      </button>  
                         </form>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                       <div class="carousel-item active">
                         <img src="imagenes/banner.png" class="d-block w-100" alt="...">
                         <div class="fst-italic carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
+                            <h5>Winter Collection</h5>
                             <button type="submit" class="btn btn-primary  ">Shop Now</button>
                           </div>
                       </div>
@@ -100,10 +100,11 @@
                 <img src="imagenes/poco.png" class="card-img-top">
               </a>
               <div class="card-body">
-                <h3 class="card-title">Curso PHP</h3>
-                <h5 class="card-subtitle mb-3">Nivel Básico</h5>
+                <h3 class="card-title">Section ONE</h3>
                 <div class="card-text">
-                  TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Entry ->
+                  </button>
                 </div>
               </div>
             </div>
@@ -115,10 +116,11 @@
                 <img src="imagenes/Us.png" class="card-img-top">
               </a>
               <div class="card-body">
-                <h3 class="card-title">Curso MySQL</h3>
-                <h5 class="card-subtitle mb-3">Nivel Básico</h5>
+                <h3 class="card-title">Section TWO</h3>
                 <div class="card-text">
-                  TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Entry ->
+                  </button>
                 </div>
               </div>
             </div>
@@ -130,10 +132,11 @@
                 <img src="imagenes/homer.png" class="card-img-top">
               </a>
               <div class="card-body">
-                <h3 class="card-title">Curso JQUERY</h3>
-                <h5 class="card-subtitle mb-3">Nivel Básico</h5>
+                <h3 class="card-title">Section THREE</h3>
                 <div class="card-text">
-                  TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA-TEXTO PRUEBA
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Entry ->
+                  </button>
                 </div>
               </div>
             </div>
