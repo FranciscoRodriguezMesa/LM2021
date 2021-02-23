@@ -39,4 +39,19 @@ a:visited {
   color: yellow;
 }
 
+/* line 28, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#principal {
+  color: blue;
+}
+
+/* line 30, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#principal-derecha {
+  color: green;
+}
+
+/* line 33, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#principal-izquierda {
+  color: red;
+}
+
 /*# sourceMappingURL=estilos.css.map */
