@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../scss/estilos.scss"
+	],
+	"sourcesContent": [
+		"$bg-color: #c0c0c0;\r\n$size: 1em;\r\nbody {\r\n    background-color: $bg-color;\r\n    margin: $size * 2;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAHT,OAAO;EAId,MAAM,EAAE,GAAS;CACpB"
+}
