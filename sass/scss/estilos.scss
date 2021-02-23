@@ -1,2 +1,6 @@
-$bg-colot: #c0c0c0
-$size: 1em
+$bg-color: #c0c0c0;
+$size: 1em;
+body {
+    background-color: $bg-color;
+    margin: $size * 2;
+}
