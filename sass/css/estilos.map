@@ -5,8 +5,8 @@
 		"../scss/estilos.scss"
 	],
 	"sourcesContent": [
-		"$bg-color: #c0c0c0;\r\n$size: 1em;\r\nbody {\r\n    background-color: $bg-color;\r\n    margin: $size * 2;\r\n}"
+		"$bg-color: #c0c0c0;\r\n$size: 1em;\r\nbody {\r\n    background-color: $bg-color;\r\n    margin: $size * 2;\r\n}\r\n#main {\r\n    width: 97%;\r\n    p, div{\r\n        font-size: 20px;\r\n        a {\r\n            text-decoration: none;\r\n        }\r\n    }\r\n    span {\r\n        font-size: 22px;\r\n    }\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAEA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAHT,OAAO;EAId,MAAM,EAAE,GAAS;CACpB"
+	"mappings": ";AAEA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAHT,OAAO;EAId,MAAM,EAAE,GAAS;CACpB;;;AACD,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,GAAG;CAUb;;;AAXD,AAEI,KAFC,CAED,CAAC,EAFL,KAAK,CAEE,GAAG,CAAA;EACF,SAAS,EAAE,IAAI;CAIlB;;;AAPL,AAIQ,KAJH,CAED,CAAC,CAEG,CAAC,EAJT,KAAK,CAEE,GAAG,CAEF,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CACxB;;;AANT,AAQI,KARC,CAQD,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;CAClB"
 }

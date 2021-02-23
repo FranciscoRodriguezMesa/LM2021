@@ -4,4 +4,24 @@ body {
   margin: 2em;
 }
 
+/* line 7, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#main {
+  width: 97%;
+}
+
+/* line 9, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#main p, #main div {
+  font-size: 20px;
+}
+
+/* line 11, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#main p a, #main div a {
+  text-decoration: none;
+}
+
+/* line 15, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#main span {
+  font-size: 22px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
