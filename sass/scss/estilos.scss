@@ -1,4 +1,4 @@
-@import"variables";
+@import "variables";
 
 
 $bg-color: #c0c0c0;
@@ -47,4 +47,15 @@ a {
 
 p{
     color: $color-texto
+}
+
+@mixin tipoenlace {
+    color: blue;
+    text-decoration: none;
+}
+
+#capa {
+    a {
+        @include tipoenlace;
+    }
 }
