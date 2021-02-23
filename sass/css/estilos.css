@@ -54,4 +54,11 @@ a:visited {
   color: red;
 }
 
+/* line 38, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+.parrafo font {
+  family: verdana;
+  size: 20px;
+  weight: bold;
+}
+
 /*# sourceMappingURL=estilos.css.map */

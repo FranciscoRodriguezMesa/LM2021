@@ -1,3 +1,6 @@
+@import"variables";
+
+
 $bg-color: #c0c0c0;
 $size: 1em;
 body {
@@ -40,4 +43,8 @@ a {
         size: 20px;
         weight: bold;
     }
+}
+
+p{
+    color: $color-texto
 }
