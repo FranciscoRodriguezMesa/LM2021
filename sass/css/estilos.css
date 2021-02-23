@@ -24,4 +24,19 @@ body {
   font-size: 22px;
 }
 
+/* line 19, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+a {
+  font-weight: bold;
+}
+
+/* line 21, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 24, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+a:visited {
+  color: yellow;
+}
+
 /*# sourceMappingURL=estilos.css.map */

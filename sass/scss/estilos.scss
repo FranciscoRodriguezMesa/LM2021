@@ -16,3 +16,12 @@ body {
         font-size: 22px;
     }
 }
+a {
+    font-weight: bold;
+    &:hover {
+        text-decoration: none;
+    }
+    &:visited{
+        color: yellow;
+    }
+}
