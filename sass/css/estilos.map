@@ -5,8 +5,8 @@
 		"../scss/estilos.scss"
 	],
 	"sourcesContent": [
-		""
+		"/*@import \"variables\";*/\r\n\r\n\r\n$bg-color: #c0c0c0;\r\n$size: 1em;\r\nbody {\r\n    background-color: $bg-color;\r\n    margin: $size * 2;\r\n}\r\n#main {\r\n    width: 97%;\r\n    p, div{\r\n        font-size: 20px;\r\n        a {\r\n            text-decoration: none;\r\n        }\r\n    }\r\n    span {\r\n        font-size: 22px;\r\n    }\r\n}\r\na {\r\n    font-weight: bold;\r\n    &:hover {\r\n        text-decoration: none;\r\n    }\r\n    &:visited{\r\n        color: yellow;\r\n    }\r\n}\r\n#principal {\r\n    color:blue;\r\n    &-derecha {\r\n        color: green;\r\n    }\r\n    &-izquierda {\r\n        color: red;\r\n    }\r\n}                \r\n.parrafo {\r\n    font {\r\n        family: verdana;\r\n        size: 20px;\r\n        weight: bold;\r\n    }\r\n}\r\n\r\n@mixin tipoenlace {\r\n    color: blue;\r\n    text-decoration: none;\r\n}\r\n\r\n#capa {\r\n    a {\r\n        @include tipoenlace;\r\n    }\r\n}\r\n\r\n@mixin borde_capa($size: 2px) {\r\n    border-radius: $size;\r\n}\r\n\r\n#capa1 {\r\n    @include borde_capa()\r\n}"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AAAA,wBAAwB;;AAKxB,AAAA,IAAI,CAAC;EACD,gBAAgB,EAHT,OAAO;EAId,MAAM,EAAE,GAAS;CACpB;;;AACD,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,GAAG;CAUb;;;AAXD,AAEI,KAFC,CAED,CAAC,EAFL,KAAK,CAEE,GAAG,CAAA;EACF,SAAS,EAAE,IAAI;CAIlB;;;AAPL,AAIQ,KAJH,CAED,CAAC,CAEG,CAAC,EAJT,KAAK,CAEE,GAAG,CAEF,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CACxB;;;AANT,AAQI,KARC,CAQD,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;CAClB;;;AAEL,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,IAAI;CAOpB;;;AARD,AAEI,CAFH,AAEI,MAAM,CAAC;EACJ,eAAe,EAAE,IAAI;CACxB;;;AAJL,AAKI,CALH,AAKI,QAAQ,CAAA;EACL,KAAK,EAAE,MAAM;CAChB;;;AAEL,AAAA,UAAU,CAAC;EACP,KAAK,EAAC,IAAI;CAOb;;;AANI,AAAD,kBAAS,CAAC;EACN,KAAK,EAAE,KAAK;CACf;;;AACA,AAAD,oBAAW,CAAC;EACR,KAAK,EAAE,GAAG;CACb;;;AAEL,AACI,QADI,CACJ,IAAI,CAAC;EACD,MAAM,EAAE,OAAO;EACf,IAAI,EAAE,IAAI;EACV,MAAM,EAAE,IAAI;CACf;;;AAQL,AACI,KADC,CACD,CAAC,CAAC;EALF,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,IAAI;CAMpB;;;AAOL,AAAA,MAAM,CAAC;EAHH,aAAa,EADQ,GAAG;CAM3B"
 }

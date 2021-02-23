@@ -1,0 +1,65 @@
+/*@import "variables";*/
+
+
+$bg-color: #c0c0c0;
+$size: 1em;
+body {
+    background-color: $bg-color;
+    margin: $size * 2;
+}
+#main {
+    width: 97%;
+    p, div{
+        font-size: 20px;
+        a {
+            text-decoration: none;
+        }
+    }
+    span {
+        font-size: 22px;
+    }
+}
+a {
+    font-weight: bold;
+    &:hover {
+        text-decoration: none;
+    }
+    &:visited{
+        color: yellow;
+    }
+}
+#principal {
+    color:blue;
+    &-derecha {
+        color: green;
+    }
+    &-izquierda {
+        color: red;
+    }
+}                
+.parrafo {
+    font {
+        family: verdana;
+        size: 20px;
+        weight: bold;
+    }
+}
+
+@mixin tipoenlace {
+    color: blue;
+    text-decoration: none;
+}
+
+#capa {
+    a {
+        @include tipoenlace;
+    }
+}
+
+@mixin borde_capa($size: 2px) {
+    border-radius: $size;
+}
+
+#capa1 {
+    @include borde_capa(6px)
+}

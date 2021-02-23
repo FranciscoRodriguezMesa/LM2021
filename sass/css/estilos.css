@@ -1,2 +1,76 @@
+/*@import "variables";*/
+/* line 6, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+body {
+  background-color: #c0c0c0;
+  margin: 2em;
+}
+
+/* line 10, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#main {
+  width: 97%;
+}
+
+/* line 12, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#main p, #main div {
+  font-size: 20px;
+}
+
+/* line 14, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#main p a, #main div a {
+  text-decoration: none;
+}
+
+/* line 18, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#main span {
+  font-size: 22px;
+}
+
+/* line 22, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+a {
+  font-weight: bold;
+}
+
+/* line 24, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 27, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+a:visited {
+  color: yellow;
+}
+
+/* line 31, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#principal {
+  color: blue;
+}
+
+/* line 33, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#principal-derecha {
+  color: green;
+}
+
+/* line 36, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#principal-izquierda {
+  color: red;
+}
+
+/* line 41, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+.parrafo font {
+  family: verdana;
+  size: 20px;
+  weight: bold;
+}
+
+/* line 54, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#capa a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* line 63, D:/ASIR2021/LenguajeMarcas/repositorio/LM2021/LM2021/sass/scss/estilos.scss */
+#capa1 {
+  border-radius: 2px;
+}
 
 /*# sourceMappingURL=estilos.css.map */
