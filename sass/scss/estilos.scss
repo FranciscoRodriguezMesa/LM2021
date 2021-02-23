@@ -59,3 +59,7 @@ p{
         @include tipoenlace;
     }
 }
+
+@mixin borde_capa($size: 2px) {
+    border-radius: $size;
+}
